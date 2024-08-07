@@ -1,5 +1,5 @@
 <?php
-
+echo "Hello Azure!";
 $myfile = fopen("testfile.txt", "w");
 $callID = "CallID = " . $_POST['CALL_ID'] . "\n";
 $callernum = "Caller Number = " . $_POST['CALLER_ID_NUMBER'] . "\n";
